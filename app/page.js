@@ -28,7 +28,7 @@ export default function Home() {
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">Shopify Store</h1>
         <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6">
-          <form action="http://127.0.0.1:8787/auth" method="GET">
+          <form action="https://test2.shanikushwahonline.workers.dev/auth" method="GET">
             <div className="mb-4">
               <label htmlFor="shopName" className="block text-gray-700 font-medium mb-2">
                 Enter your shop name
