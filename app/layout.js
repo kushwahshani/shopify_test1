@@ -20,9 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        <meta name="shopify-api-key" content="fe56c0cf0d804e83ddbbce365e1c2353" />
+        <script src="https://cdn.shopify.com/shopifycloud/app-bridge.js"></script>
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
