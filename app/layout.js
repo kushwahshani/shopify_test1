@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="shopify-api-key" content="fe56c0cf0d804e83ddbbce365e1c2353" />
+        <meta name="shopify-shop" content="ac-dev-25.myshopify.com" />
         <script src="https://cdn.shopify.com/shopifycloud/app-bridge.js"></script>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
