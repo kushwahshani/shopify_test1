@@ -1,10 +1,8 @@
 import Link from "next/link"
-import HomeLayout from "./layout"
 
 function page() {
   return (
     < >
-      <HomeLayout>
         <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/010/803/399/non_2x/background-with-colorful-shopping-bags-illustration-sale-and-discount-concept-vector.jpg')" }}>
           <div>
             <div>
@@ -35,7 +33,6 @@ function page() {
           </div>
 
         </div>
-      </HomeLayout>
     </>
   )
 }
