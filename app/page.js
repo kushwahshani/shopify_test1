@@ -60,6 +60,7 @@ export default function Home() {
                 onInvalid={(e) => handleValidation(e)}
                 onInput={(e) => handleValidation(e)}
               />
+               {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
             </div>
             <button
               type="submit"
