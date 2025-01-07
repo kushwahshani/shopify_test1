@@ -32,7 +32,7 @@ export default function Home() {
 
     // Check if the input field is empty
     if (!inputField.value.trim()) {
-      setErrorMessage('Please fill out this field with some text.');
+      setErrorMessage('Missing Shop Name Please Enter Shop.');
       inputField.setCustomValidity(' ');
     } else {
       setErrorMessage('');
