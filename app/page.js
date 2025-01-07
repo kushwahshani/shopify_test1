@@ -39,6 +39,7 @@ export default function Home() {
                 name="shop"  // This will be sent as a query parameter with the name 'shop'
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 placeholder="Enter your shop name"
+                required
               />
             </div>
             <button
