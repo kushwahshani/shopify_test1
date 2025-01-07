@@ -46,7 +46,7 @@ export default function Home() {
               type="submit"
               className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition"
             >
-              Submit
+              Install App
             </button>
           </form>
         </div>
