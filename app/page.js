@@ -1,6 +1,6 @@
 "use client"
 
-// import { useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   // const [inputValue, setInputValue] = useState("");
@@ -23,6 +23,23 @@ export default function Home() {
   //   }
 
   // }
+
+
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleValidation = (event) => {
+    const inputField = event.target;
+
+    // Check if the input field is empty
+    if (!inputField.value.trim()) {
+      setErrorMessage('Please fill out this field with some text.');
+      inputField.setCustomValidity(' ');
+    } else {
+      setErrorMessage('');
+      inputField.setCustomValidity('');
+    }
+  };
+
   return (
     <>
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
@@ -40,6 +57,8 @@ export default function Home() {
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 placeholder="Enter your shop name"
                 required
+                onInvalid={(e) => handleValidation(e)}
+                onInput={(e) => handleValidation(e)}
               />
             </div>
             <button
