@@ -1,9 +1,11 @@
 import Link from "next/link"
+import { Page } from "@shopify/polaris"
 
 function page() {
   return (
     < >
-        <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/010/803/399/non_2x/background-with-colorful-shopping-bags-illustration-sale-and-discount-concept-vector.jpg')" }}>
+
+        {/* <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/010/803/399/non_2x/background-with-colorful-shopping-bags-illustration-sale-and-discount-concept-vector.jpg')" }}>
           <div>
             <div>
               <div className="flex pt-10 font-semibold ml-20 text-2xl text-black ">
@@ -32,7 +34,11 @@ function page() {
 
           </div>
 
-        </div>
+        </div> */}
+
+        <Page>
+          <h1>Hellow</h1>
+        </Page>
     </>
   )
 }
