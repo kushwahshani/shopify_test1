@@ -5,7 +5,7 @@ function page() {
   return (
     < >
 
-        {/* <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/010/803/399/non_2x/background-with-colorful-shopping-bags-illustration-sale-and-discount-concept-vector.jpg')" }}>
+      {/* <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/010/803/399/non_2x/background-with-colorful-shopping-bags-illustration-sale-and-discount-concept-vector.jpg')" }}>
           <div>
             <div>
               <div className="flex pt-10 font-semibold ml-20 text-2xl text-black ">
@@ -36,9 +36,74 @@ function page() {
 
         </div> */}
 
-        <Page>
-          <h1>Hellow</h1>
-        </Page>
+      <div class="Polaris-Page">
+        <div class="Polaris-Box" style="--pc-box-padding-block-start-xs:var(--p-space-400);--pc-box-padding-block-start-md:var(--p-space-600);--pc-box-padding-block-end-xs:var(--p-space-400);--pc-box-padding-block-end-md:var(--p-space-600);--pc-box-padding-inline-start-xs:var(--p-space-400);--pc-box-padding-inline-start-sm:var(--p-space-0);--pc-box-padding-inline-end-xs:var(--p-space-400);--pc-box-padding-inline-end-sm:var(--p-space-0);position:relative">
+          <div role="status">
+            <p class="Polaris-Text--root Polaris-Text--visuallyHidden">Product. This page is ready</p>
+          </div>
+          <div class="Polaris-Page-Header--noBreadcrumbs Polaris-Page-Header--mediumTitle">
+            <div class="Polaris-Page-Header__Row">
+              <div class="Polaris-Page-Header__TitleWrapper">
+                <div class="Polaris-Header-Title__TitleWrapper">
+                  <h1 class="Polaris-Header-Title">
+                    <span class="Polaris-Text--root Polaris-Text--headingLg Polaris-Text--bold">Product</span>
+                  </h1>
+                </div>
+              </div>
+              <div class="Polaris-Page-Header__RightAlign">
+                <div class="Polaris-ActionMenu">
+                  <div class="Polaris-ActionMenu-Actions__ActionsLayoutOuter">
+                    <div class="Polaris-ActionMenu-Actions__ActionsLayoutMeasurer">
+                      <div class="Polaris-ActionMenu-SecondaryAction">
+                        <span class="">
+                          <button class="Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled" aria-disabled="true" type="button" tabindex="0" aria-describedby=":R5atiq6:" data-polaris-tooltip-activator="true">
+                            <span class="Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium">Import</span>
+                          </button>
+                        </span>
+                      </div>
+                      <div class="Polaris-ActionMenu-SecondaryAction">
+                        <button class="Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disclosure" type="button">
+                          <span class="Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium">More actions</span>
+                          <span class="Polaris-Button__Icon">
+                            <span class="Polaris-Icon">
+                              <svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.72 8.47a.75.75 0 0 1 1.06 0l3.47 3.47 3.47-3.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 0-1.06Z">
+                                </path>
+                              </svg>
+                            </span>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="Polaris-ActionMenu-Actions__ActionsLayout">
+                      <div class="Polaris-ActionMenu-SecondaryAction">
+                        <span class="">
+                          <button class="Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled" aria-disabled="true" type="button" tabindex="0" aria-describedby=":r1:" data-polaris-tooltip-activator="true">
+                            <span class="Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium">Import</span>
+                          </button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="Polaris-Page-Header__PrimaryActionWrapper">
+                  <div class="Polaris-Box Polaris-Box--printHidden">
+                    <button class="Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter" type="button">
+                      <span class="Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium">Save</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+        </div>
+      </div>
+      <div data-portal-id="tooltip-:r0:" class="p-theme-light Polaris-ThemeProvider--themeContainer">
+      </div>
+      <div data-portal-id="tooltip-:r2:" class="p-theme-light Polaris-ThemeProvider--themeContainer">
+      </div>
     </>
   )
 }
